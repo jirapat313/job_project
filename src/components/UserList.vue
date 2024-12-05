@@ -1,7 +1,7 @@
 <template>
   <ul>
     <li v-for="user in users" :key="user.id">
-      <p>{{ user.name }} ({{ user.email }})</p>
+      <p class="borders">{{ user.name }} ({{ user.email }})</p>
       <button @click="editUser(user)">Edit</button> <!-- ส่ง user ที่เลือก -->
       
       
@@ -38,3 +38,9 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+.borders{
+  border: solid;
+}
+</style>

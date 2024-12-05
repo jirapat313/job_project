@@ -6,7 +6,7 @@ import { RouterView } from 'vue-router'
 <template>
 
   <header>
-   <body>
+   
 
     <div class="wrapper">
       
@@ -16,11 +16,8 @@ import { RouterView } from 'vue-router'
         
       </nav>
     </div>
-
     
-      
-
-    </body>
+    
   </header>
 
   <RouterView />
